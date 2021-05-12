@@ -1,0 +1,31 @@
+.video {
+  width: 100%;
+  position: relative;
+}
+.video-description {
+  font-size: 10vh;
+}
+.line {
+  width: 70px;
+  height: 5px;
+  margin-left: 0px;
+  color: white;
+  background-color: white;
+}
+.starting-at {
+  font-size: 3vh;
+}
+.description-price {
+  font-size: 5vh;
+}
+.vehicle {
+  font-size: 12px;
+}
+.description-in-video {
+  position: absolute;
+  /* margin-top: -500px; */
+  /* margin-left: 170px; */
+  color: white;
+  top: 20vh;
+  left: 10vw;
+}

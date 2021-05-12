@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&display=swap");
+
+.login-block {
+    position: relative;
+}
+.login-inp {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 500px;
+    font-size: 18px;
+    text-align: center;
+}
+.login-email {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.549);
+    border: solid 3px;
+    border-color: white;
+    font-family: "Cinzel", serif;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.login-password {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.549);
+    border: solid 3px;
+    border-color: white;
+    font-family: "Cinzel", serif;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.login-btn {
+    width: 200px;
+    height: 45px;
+    border: none;
+    font-family: "Cinzel", serif;
+    font-size: bold;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+.login-img {
+    width: 100vw;
+}
+@media (max-width: 1200px) {
+    .login-inp {
+        margin-top: -500px;
+        margin-left: 400px;
+    }
+}
+@media (max-width: 1024px) {
+    .login-inp {
+        margin: top -430px;
+        margin-left: 330px;
+    }
+}
+@media (max-width: 900px) {
+    .login-inp {
+        margin-top: -400px;
+        margin-left: 280px;
+    }
+}
+@media (max-width: 750px) {
+    .login-inp {
+        margin-top: -350px;
+        margin-left: 200px;
+    }
+    .login-email {
+        width: 250px;
+        height: 40px;
+    }
+    .login-password {
+        width: 250px;
+        height: 40px;
+    }
+    .login-btn {
+        width: 180px;
+        height: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .login-inp {
+        margin-top: -330px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 551px) {
+    .login-inp {
+        margin-top: -300px;
+        margin-left: 200px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .login-email {
+        width: 150px;
+        height: 35px;
+    }
+    .login-password {
+        width: 150px;
+        height: 35px;
+    }
+    .login-btn {
+        width: 120px;
+        height: 35px;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 450px) {
+    .login-inp {
+        margin-top: -250px;
+        margin-left: 150px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .login-email {
+        width: 150px;
+        height: 30px;
+    }
+    .login-password {
+        width: 150px;
+        height: 30px;
+        margin-top: -10px;
+    }
+    .login-btn {
+        width: 120px;
+        height: 30px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .login-inp {
+        margin-top: -250px;
+        margin-left: 150px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .login-email {
+        width: 150px;
+        height: 30px;
+    }
+    .login-password {
+        width: 150px;
+        height: 30px;
+        margin-top: -10px;
+    }
+    .login-btn {
+        width: 120px;
+        height: 30px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+}
+@media (max-width: 370px) {
+    .login-inp {
+        margin-top: -240px;
+        margin-left: 110px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .login-email {
+        width: 150px;
+        height: 25px;
+    }
+    .login-password {
+        width: 150px;
+        height: 25px;
+        margin-top: -10px;
+    }
+    .login-btn {
+        width: 120px;
+        height: 25px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+}
+@media (max-width: 300px) {
+    .login-inp {
+        margin-top: -200px;
+        margin-left: 100px;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .login-email {
+        width: 100px;
+        height: 15px;
+    }
+    .login-password {
+        width: 100px;
+        height: 15px;
+        margin-top: -10px;
+    }
+    .login-btn {
+        width: 80px;
+        height: 15px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+}

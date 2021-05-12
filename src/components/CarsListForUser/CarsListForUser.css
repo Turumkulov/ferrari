@@ -1,0 +1,21 @@
+.carsForUser {
+    display: flex;
+    flex-direction: row;
+}
+.details1 {
+    flex-direction: column;
+}
+.carsForUser {
+    flex-direction: column;
+}
+.grids {
+    margin-left: 180px !important;
+}
+.pagination {
+    margin-left: 620px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* .MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded {
+  width: 100vw;
+} */

@@ -1,0 +1,47 @@
+.makeStyles-root-1 {
+    width: 22vw !important;
+}
+.inp-search {
+    width: 40vw;
+    margin-left: 430px;
+    background-color: rgb(112, 18, 18);
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.btn-show {
+    color: rgb(112, 18, 18) !important;
+    border-color: rgb(112, 18, 18);
+    /* position: absolute; */
+    margin-left: 850px !important;
+    margin-top: -70px !important;
+}
+.slider {
+    color: rgb(112, 18, 18) !important;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.formControl {
+    color: rgb(112, 18, 18) !important;
+    margin-left: 20px !important;
+}
+.models {
+    color: rgb(112, 18, 18) !important;
+}
+.models {
+    margin-left: 640px !important;
+}
+.radio-group {
+    margin-left: 250px;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    margin-top: 30px;
+}
+
+/* @media all and (max-width: 768px) {
+    .makeStyles-root-1 {
+        width: 90vw !important;
+    }
+    .inp-search {
+        width: 90vw !important;
+    }
+} */

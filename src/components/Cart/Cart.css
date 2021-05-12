@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.cart__items {
+    font-family: "Roboto", sans-serif;
+    margin: 5vh 5vw;
+    padding: 4vh 2vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.img_car {
+    width: 40vw;
+}
+.favorite {
+    color: rgb(112, 18, 18);
+}
+.item__count {
+    width: 4vw;
+    font-size: 4vh;
+    border: none;
+}
+.item__model {
+    font-size: 4vh;
+    color: rgb(112, 18, 18);
+}
+.item__title,
+.item__count__div,
+.item__subprice {
+    margin: 2vh 2vw;
+}
+.item__subprice {
+    font-size: 4vh;
+}
+.item__title {
+    width: 30vw;
+}
+.item__subprice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item__price {
+    font-size: 4vh;
+    margin-top: 3vh;
+    color: rgb(112, 18, 18);
+}
+.item__count__span {
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+.item__subprice__div {
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+.delete__from__cart {
+    width: 15vw;
+    height: 6vh;
+    border: none;
+    background-color: rgb(112, 18, 18);
+    color: white;
+}
+.delete__from__cart:hover {
+    background-color: rgba(0, 0, 0, 0.165);
+    color: black;
+    border: 2px solid black;
+}
+.buy-btn {
+    width: 15vw;
+    height: 6vh;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.buy-btn:hover {
+    background-color: rgba(255, 255, 255, 0.165);
+    color: black;
+    border: 2px solid black;
+}
+@media all and (max-width: 1024px) {
+    .cart__items {
+        flex-direction: column;
+        width: 85vw;
+        font-size: 20px !important;
+    }
+    .item__count__div {
+        display: flex;
+        flex-direction: row;
+    }
+    .item__subprice {
+        display: flex;
+        flex-direction: column;
+    }
+    .item__count {
+        width: 5vw;
+        height: 4vh;
+        margin-left: 10px;
+    }
+    .item__count__span {
+        font-size: 4vh;
+        margin-right: 5px;
+    }
+    .price_subprice {
+        display: flex;
+    }
+    .item__subprice__div {
+        font-size: 4vh;
+    }
+}
+@media all and (max-width: 400px) {
+}
